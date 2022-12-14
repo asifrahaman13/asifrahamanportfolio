@@ -32,7 +32,7 @@ const Contact = () => {
     <>
       <center>
         <contact className="contact-header" id="contact-me">
-          CONTACT ME HERE
+          CONTACT ME
         </contact>
         <div className="contact-container">
           <div className="contact-me">
