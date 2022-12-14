@@ -32,7 +32,7 @@ const Footer = () => {
   return (
     <>
       <div className="footer-container">
-        <ul className="footer-ul-first">CONTACT ME HERE</ul>
+        <ul className="footer-ul-first">CONTACT ME</ul>
         <ul className="footer-ul-second">
           {images.map((item, idx) => {
             return (
