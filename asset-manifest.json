@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/asifrahamanportfolio/static/css/main.c9a63cf9.css",
+    "main.js": "/asifrahamanportfolio/static/js/main.7b4426e3.js",
+    "static/media/19362653.jpg": "/asifrahamanportfolio/static/media/19362653.0a4893421f4eb80a395c.jpg",
+    "static/media/instagram.png": "/asifrahamanportfolio/static/media/instagram.abaad5368021207f4885.png",
+    "static/media/linux .png": "/asifrahamanportfolio/static/media/linux .38f556b1070ef2ae5952.png",
+    "static/media/blockchain.png": "/asifrahamanportfolio/static/media/blockchain.6e83951bef1a79bf5405.png",
+    "static/media/img.png": "/asifrahamanportfolio/static/media/img.bbbb08b16e790228f8d8.png",
+    "static/media/java.png": "/asifrahamanportfolio/static/media/java.a6c04d799c4255fb0579.png",
+    "static/media/kotlin.png": "/asifrahamanportfolio/static/media/kotlin.40a7d6c01dc79e4d9972.png",
+    "static/media/pro.jpg": "/asifrahamanportfolio/static/media/pro.bed7eb50b7a114c81662.jpg",
+    "static/media/github.png": "/asifrahamanportfolio/static/media/github.abb38ccbc752abe80b5c.png",
+    "static/media/py.png": "/asifrahamanportfolio/static/media/py.6dfd07784e95af69524b.png",
+    "static/media/javascript.png": "/asifrahamanportfolio/static/media/javascript.4639c895c33d52eebeff.png",
+    "static/media/c.png": "/asifrahamanportfolio/static/media/c.c417f91d77a7ff6b1329.png",
+    "static/media/node-dot-js.png": "/asifrahamanportfolio/static/media/node-dot-js.6af1b0cbde4f11994f5f.png",
+    "static/media/telegram.png": "/asifrahamanportfolio/static/media/telegram.3e9ca5bdb076040949da.png",
+    "static/media/v.jpg": "/asifrahamanportfolio/static/media/v.cdf04217411d2bcf2bfe.jpg",
+    "static/media/djangoproject.png": "/asifrahamanportfolio/static/media/djangoproject.1b637c6d23174195f5e6.png",
+    "static/media/gmail.png": "/asifrahamanportfolio/static/media/gmail.4bdf6627e0898a3a2961.png",
+    "static/media/python.png": "/asifrahamanportfolio/static/media/python.e80f54ac40860c436de9.png",
+    "static/media/html.png": "/asifrahamanportfolio/static/media/html.dcd6f79476d4c2b1feaa.png",
+    "static/media/facebook.png": "/asifrahamanportfolio/static/media/facebook.3ea3ffc7a87535d712d7.png",
+    "index.html": "/asifrahamanportfolio/index.html",
+    "main.c9a63cf9.css.map": "/asifrahamanportfolio/static/css/main.c9a63cf9.css.map",
+    "main.7b4426e3.js.map": "/asifrahamanportfolio/static/js/main.7b4426e3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c9a63cf9.css",
+    "static/js/main.7b4426e3.js"
+  ]
+}
