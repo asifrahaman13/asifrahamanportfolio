@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/asifrahamanportfolio/static/css/main.c9a63cf9.css",
-    "main.js": "/asifrahamanportfolio/static/js/main.7b4426e3.js",
+    "main.css": "/asifrahamanportfolio/static/css/main.2b159cc4.css",
+    "main.js": "/asifrahamanportfolio/static/js/main.d1fc02ab.js",
     "static/media/19362653.jpg": "/asifrahamanportfolio/static/media/19362653.0a4893421f4eb80a395c.jpg",
     "static/media/instagram.png": "/asifrahamanportfolio/static/media/instagram.abaad5368021207f4885.png",
     "static/media/linux .png": "/asifrahamanportfolio/static/media/linux .38f556b1070ef2ae5952.png",
@@ -23,11 +23,11 @@
     "static/media/html.png": "/asifrahamanportfolio/static/media/html.dcd6f79476d4c2b1feaa.png",
     "static/media/facebook.png": "/asifrahamanportfolio/static/media/facebook.3ea3ffc7a87535d712d7.png",
     "index.html": "/asifrahamanportfolio/index.html",
-    "main.c9a63cf9.css.map": "/asifrahamanportfolio/static/css/main.c9a63cf9.css.map",
-    "main.7b4426e3.js.map": "/asifrahamanportfolio/static/js/main.7b4426e3.js.map"
+    "main.2b159cc4.css.map": "/asifrahamanportfolio/static/css/main.2b159cc4.css.map",
+    "main.d1fc02ab.js.map": "/asifrahamanportfolio/static/js/main.d1fc02ab.js.map"
   },
   "entrypoints": [
-    "static/css/main.c9a63cf9.css",
-    "static/js/main.7b4426e3.js"
+    "static/css/main.2b159cc4.css",
+    "static/js/main.d1fc02ab.js"
   ]
 }
