@@ -1,0 +1,41 @@
+.server ul {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.server ul li {
+  list-style: none;
+  flex: 0.2 0 33.333333%;
+  margin: 1px;
+  border-radius: 20px;
+  padding: 2%;
+  color: rgb(11, 41, 6);
+  background-color: rgb(205, 185, 240);
+  box-shadow: 0px 5px 20px rgb(200, 190, 232);
+  animation:skills 15s linear;
+}
+
+.project-home-container {
+  margin: 2%;
+}
+
+
+
+@keyframes skills{
+  0%{
+    margin: 100px;
+  }
+  20%{
+    margin: 80px;
+  }
+  40%{
+    margin: 60px;
+  }
+  60%{
+    margin: 40px;
+  }
+}

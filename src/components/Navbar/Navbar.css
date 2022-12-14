@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  list-style: none;
+}
+
+.navbar-react {
+  display: flex;
+  flex-direction: row-reverse;
+}
+@media (max-width: 500px) {
+  .navbar-react {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(229, 226, 238);
+    color: rgb(13, 17, 78) !important;
+    height: 25vh !important;
+  }
+
+  .navbar-react navbar-ul li links {
+    color: white !important;
+  }
+  .navbar-ul {
+    display: flex;
+    flex-direction: column;
+    color: rgba(65, 19, 19, 0.235);
+  }
+  .links {
+    color: rgb(46, 14, 120) !important;
+  }
+}
+.navbar-ul {
+  display: flex;
+}
+
+.navbar-ul * {
+  padding: 1vw;
+  color: rgb(73, 17, 137);
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.links {
+  text-decoration: none;
+}
+
+.navbar-react {
+  background-color: rgb(255, 250, 255);
+  position: fixed;
+  width: 100vw;
+  height: 10vh;
+}

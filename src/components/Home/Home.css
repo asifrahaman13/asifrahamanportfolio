@@ -1,0 +1,415 @@
+.serv ul {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.serv ul li {
+  list-style: none;
+  flex: 0 0 30.333333%;
+  margin: 1px;
+  border-radius: 20px;
+  padding: 2%;
+  box-shadow: 0px 5px 20px rgb(200, 190, 232);
+}
+
+.home-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0px;
+}
+html {
+  scroll-behavior: smooth;
+}
+.ul {
+  display: flex;
+  flex-direction: row-reverse;
+  list-style: none;
+}
+
+.list {
+  padding: 30px;
+  color: rgb(81, 31, 180);
+  font-size: 16px;
+}
+.nav {
+  background-color: rgb(249, 247, 255);
+  height: 700px;
+}
+
+.img {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.body-ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  width: 70%;
+  padding: 50px;
+}
+
+.body-li {
+  padding: 50px;
+  margin: 20px;
+  border-radius: 15px;
+  box-shadow: 0px 5px 20px rgb(200, 190, 232);
+}
+.body {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.font {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+}
+.first {
+  padding: 50px;
+}
+#first {
+  background-color: rgb(249, 247, 255);
+  height: 30vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+#second {
+  background-color: rgb(249, 247, 255);
+  width: 50vw;
+  height: 55vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../assests/img.png");
+  background-size: 100% 100%;
+}
+.btn {
+  height: 50px;
+  width: 150px;
+  border-radius: 30px;
+  background-color: blueviolet;
+  box-shadow: 0px 5px 20px rgb(31, 69, 146);
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  justify-content: center;
+  align-items: center;
+}
+.flex-box {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  margin: 20px;
+}
+.display {
+  align-items: center;
+  padding: 50px;
+}
+.flex-box * {
+  border-radius: 10%;
+  display: flex;
+  justify-content: justify;
+  align-items: center;
+}
+.flex-box1 {
+  background-color: red;
+  width: 45%;
+  height: 50vh;
+  margin: 2%;
+}
+.flex-box2 {
+  background-color: green;
+  width: 45%;
+  height: 50vh;
+  margin: 2%;
+}
+.flex-box3 {
+  background-color: blue;
+  width: 50%;
+  height: 50vh;
+  margin: 2%;
+}
+#flex1 {
+  background-color: rgb(249, 247, 255);
+}
+#flex2 {
+  background-color: rgb(249, 247, 255);
+  background-image: url("https://dlcdnrog.asus.com/rog/media/1640906694290.webp");
+  background-size: 100% 100%;
+}
+#flex3 {
+  background-color: green !important;
+  background-image: url("https://www.hardsoftcomputers.co.uk/wp-content/uploads/2022/02/How-long-do-gaming-laptops-last.jpg");
+  background-size: 100% 100%;
+}
+#flex4 {
+  background-color: rgb(249, 247, 255);
+}
+#flex5 {
+  background-color: rgb(249, 247, 255);
+}
+#flex6 {
+  background-color: orange !important;
+  background-image: url("https://imgnew.outlookindia.com/uploadimage/library/16_9/16_9_5/IMAGE_1651057728.webp");
+  background-size: 100% 100%;
+}
+
+.container2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 5px 5px 5px 5px;
+  padding: 4%;
+}
+.container2 * {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+  margin: 10px 10px 10px 10px;
+  border-radius: 20px;
+}
+
+.flexbox1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexbox2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.flexbox1 * {
+  padding: 50px;
+  width: 80vw;
+  box-shadow: 0px 5px 20px rgb(200, 190, 232);
+}
+.flexbox2 * {
+  padding: 50px;
+  box-shadow: 0px 5px 20px rgb(200, 190, 232);
+}
+
+.second-img {
+  border-radius: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5%;
+}
+.second-img * {
+  border-radius: 15px;
+}
+
+.images {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.imageclass {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.imageclass * {
+  width: 30vw;
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 8%;
+  padding: 5%;
+}
+
+.first-image {
+  background-image: url("../assests/py.png");
+  background-size: 100% 100%;
+}
+.second-image {
+  background-image: url("../assests/v.jpg");
+  background-size: 100% 100%;
+}
+.third-image {
+  background-image: url("../assests/pro.jpg");
+  background-size: 100% 100%;
+}
+
+.assests {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.assest-images * {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.first-assest * {
+  margin: 7vw;
+  width: 7vw;
+  height: 15vh;
+}
+.second-assest * {
+  margin: 7vw;
+  width: 7vw;
+  height: 15vh;
+}
+.third-assest * {
+  margin: 7vw;
+  width: 7vw;
+  height: 15vh;
+}
+
+@media (max-width: 400px) {
+  .first-assest * {
+    margin: 8vw;
+    width: 10vw;
+    height: 8vh;
+  }
+  .second-assest * {
+    margin: 8vw;
+    width: 10vw;
+    height: 8vh;
+  }
+  .third-assest * {
+    margin: 8vw;
+    width: 10vw;
+    height: 8vh;
+  }
+}
+
+.first-assest1 {
+  background-image: url("../assests/c.png");
+  background-size: 100% 100%;
+}
+.first-assest2 {
+  background-image: url("../assests/blockchain.png");
+  background-size: 100% 100%;
+}
+.first-assest3 {
+  background-image: url("../assests/djangoproject.png");
+  background-size: 100% 100%;
+}
+.first-assest4 {
+  background-image: url("../assests/html.png");
+  background-size: 100% 100%;
+}
+
+.second-assest1 {
+  background-image: url("../assests/java.png");
+  background-size: 100% 100%;
+}
+.second-assest2 {
+  background-image: url("../assests/javascript.png");
+  background-size: 100% 100%;
+}
+.second-assest3 {
+  background-image: url("../assests/kotlin.png");
+  background-size: 100% 100%;
+}
+.second-assest4 {
+  background-image: url("../assests/python.png");
+  background-size: 100% 100%;
+}
+
+.third-assest1 {
+  background-image: url("../assests/node-dot-js.png");
+  background-size: 100% 100%;
+}
+.third-assest2 {
+  background-image: url("../assests/pro.jpg");
+  background-size: 100% 100%;
+}
+.third-assest3 {
+  background-image: url("../assests/c.png");
+  background-size: 100% 100%;
+}
+.third-assest4 {
+  background-image: url("../assests/linux\ .png");
+  background-size: 100% 100%;
+}
+
+.skill {
+  font-size: 1.5rem;
+  color: rgb(82, 24, 148);
+}
+
+.footer-components {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-components * {
+  padding: 40px;
+  margin: 4vw;
+  width: 4vw;
+}
+
+.github {
+  background-image: url("../assests/github.png");
+  background-size: 100% 100%;
+}
+.facebook {
+  background-image: url("../assests/facebook.png");
+  background-size: 100% 100%;
+}
+.instagram {
+  background-image: url("../assests/instagram.png");
+  background-size: 100% 100%;
+}
+.linkedin {
+  background-image: url("../assests/linkedin.png");
+  background-size: 100% 100%;
+}
+.telegram {
+  background-image: url("../assests/telegram.png");
+  background-size: 100% 100%;
+}
+.gmail {
+  background-image: url("../assests/gmail.png");
+  background-size: 100% 100%;
+}
+
+.skills {
+  padding: 0%;
+}
+
+a {
+  text-decoration: none;
+}

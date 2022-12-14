@@ -1,0 +1,30 @@
+.banner-img{
+    background-image: url("../assests/19362653.jpg");
+    background-size: 100% 100%;
+    width:100vw;
+    height: 120vh;
+}
+
+.banner{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width:500px){
+    .banner-img{
+        background-size: 100% 100%;
+        width:100vw;
+        margin:25vh 0px 0px 0px;
+        height: 50vh;
+       
+    }
+    .banner{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+
+    }
+}

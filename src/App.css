@@ -1,0 +1,17 @@
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow-x: hidden;
+  scroll-behavior: smooth !important;
+}
+
+html {
+  overflow-x: hidden;
+  overflow-y: hidden;
+
+}
+
+*{
+  margin: 0px;
+}

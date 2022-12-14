@@ -1,0 +1,57 @@
+@media (max-width: 400px) {
+  .serv ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .serv ul li {
+    list-style: none;
+    flex: 0 0 80.333333%;
+    margin: 1px;
+    border-radius: 20px;
+    padding: 5vw;
+    box-shadow: 0px 5px 20px rgb(200, 190, 232);
+  }
+}
+
+.serv ul * {
+  background-color: coral;
+}
+
+
+.serv ul {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.serv ul li {
+  list-style: none;
+  flex: 0 0 80.333333%;
+  margin: 1px;
+  border-radius: 20px;
+  padding: 5vw;
+  box-shadow: 0px 5px 20px rgb(200, 190, 232);
+  animation:participations 7s linear;
+  color:white;
+}
+
+@keyframes participations{
+  0%{
+    margin: 100px;
+  }
+  20%{
+    margin: 80px;
+  }
+  40%{
+    margin: 60px;
+  }
+  60%{
+    margin: 40px;
+  }
+}

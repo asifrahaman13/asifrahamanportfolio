@@ -1,0 +1,82 @@
+@media (max-width: 1400px) {
+  .hack ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .hack ul li {
+    list-style: none;
+    flex: 0 0 88.333333% !important;
+    margin: 1vw;
+    border-radius: 20px;
+    padding: 5vw !important;
+    box-shadow: 0px 5px 20px rgb(200, 190, 232);
+    background-color: rgb(234, 220, 72);
+    text-align: justify;
+    margin: 10vw;
+  }
+
+  .hackathon-img {
+    margin: 1vw !important;
+    border-radius: 5vw !important;
+    padding: 5vw !important;
+  }
+  .hackathonimg {
+    height: 30vh;
+  }
+}
+
+.hack ul {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.hack ul li {
+  list-style: none;
+  flex: 0 0 40.333333%;
+  margin: 1vw;
+  border-radius: 20px;
+  padding: 2vw;
+  box-shadow: 0px 5px 20px rgb(200, 190, 232);
+  background-color: rgb(220, 188, 238);
+  animation:projects 10s linear;
+}
+
+.hackathon-img {
+  margin: 1vw;
+  border-radius: 5vw;
+}
+
+
+@keyframes projects{
+  0%{
+    margin: 100px;
+  }
+  10%{
+    margin: 90px;
+  }
+  20%{
+    margin: 80px;
+  }
+  30%{
+    margin: 70px;
+  }
+  40%{
+    margin: 60px;
+  }
+  50%{
+    margin: 60px;
+  }
+  60%{
+    margin: 40px;
+  }
+  70%{
+    margin: 30px;
+  }
+}
