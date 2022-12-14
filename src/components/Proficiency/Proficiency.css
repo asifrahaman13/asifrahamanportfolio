@@ -38,4 +38,7 @@
   60%{
     margin: 40px;
   }
+  100%{
+    margin:0px
+  }
 }

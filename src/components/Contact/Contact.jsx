@@ -3,6 +3,8 @@ import "./Contact.css";
 import { useState } from "react";
 
 const Contact = () => {
+  const [msg, setMsg] = useState(false);
+
   const [credential, setCredential] = useState({
     email: "",
     name: "",
@@ -10,16 +12,19 @@ const Contact = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const response = await fetch("https://backendportfolio.adaptable.app//contacts", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({
-        email: credential.email,
-        name: credential.name,
-      }),
-    });
+    const response = await fetch(
+      "https://backendportfolio.adaptable.app//contacts",
+      {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          email: credential.email,
+          name: credential.name,
+        }),
+      }
+    );
     const json = await response.json();
     console.log(json);
   };
@@ -30,10 +35,13 @@ const Contact = () => {
 
   return (
     <>
+      {msg == false ? <>fdf</> : <>dhfgfg</>}
+
       <center>
         <contact className="contact-header" id="contact-me">
           CONTACT ME
         </contact>
+
         <div className="contact-container">
           <div className="contact-me">
             <form onSubmit={handleSubmit}>
@@ -87,8 +95,9 @@ const Contact = () => {
                 placeholder="Enter your concern e.g Hello can you please.... "
               ></textarea>
               <center>
-                <button className="btn-submit">Submit</button>
+                <button className="btn-submit" onClick={(e)=>{setMsg(true)}}>Submit</button>
               </center>
+              <h3 className="status"><font color="green"/>{msg == false ? <></> : <>Your message is submitted</>}<font/></h3>
             </form>
           </div>
         </div>
