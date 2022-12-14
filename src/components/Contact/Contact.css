@@ -74,5 +74,6 @@
   color: rgb(124, 38, 161);
 }
 .status{
+  font-size: 1rem;
   color:green;
 }

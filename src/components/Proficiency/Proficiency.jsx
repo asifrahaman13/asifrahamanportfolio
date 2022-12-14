@@ -2,24 +2,41 @@ import React from "react";
 import { useEffect } from "react";
 import { useState } from "react";
 import "./Proficiency.css";
-
+import Loading from "../Loading/Loading";
 
 const Proficiency = () => {
+  const [loading, setLoading] = useState(true);
   const [skillsets, setSkillsets] = useState([]);
   useEffect(() => {
     getSkills();
   });
 
   const getSkills = async () => {
-    var response = await fetch("https://backendportfolio.adaptable.app//skills", {
-      method: "GET",
-      headers: {
-        "Content-Type": "application/json",
-      },
-    });
-    response = await response.json();
-    setSkillsets(response);
+    try {
+      setLoading(false);
+      var response = await fetch(
+        "https://backendportfolio.adaptable.app//skills",
+        {
+          method: "GET",
+          headers: {
+            "Content-Type": "application/json",
+          },
+        }
+      );
+      response = await response.json();
+      setSkillsets(response);
+    } catch {
+      console.log("Error...");
+    }
   };
+
+  if (loading) {
+    return (
+      <>
+        <Loading />
+      </>
+    );
+  }
 
   return (
     <>

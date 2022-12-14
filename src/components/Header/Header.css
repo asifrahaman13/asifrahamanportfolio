@@ -1,38 +1,28 @@
-@media (max-width:400px){
-    .imageclass *{
-        width: 30vw;
-        height:15vh;
-        margin: 0.1vh;
-    }
-    .images{
-        margin:5vw 0vw 20vw 0vw;
-    }
-    aboutme{
-        margin: 15vw 0vw 0vw 0vw;
-    }
+@media (max-width: 500px) {
+  .imageclass * {
+    width: 30vw;
+    height: 15vw;
+    margin: 0.1vh;
+  }
+  .images {
+    margin: 5vw 0vw 20vw 0vw;
+    height: 30vw;
+  }
+  aboutme {
+    margin: 15vw 0vw 0vw 0vw;
+  }
 }
 
-.scroll-view{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    margin:4vw;
+.scroll-view {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 4vw;
 }
 
-@media (max-width:400px){
-    .scroll-view *{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        flex-wrap: wrap;
-        padding: 2vw;
-        font-size: 2vh;
-    }
-}
-
-.scroll-view *{
+@media (max-width: 500px) {
+  .scroll-view * {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -40,30 +30,57 @@
     flex-wrap: wrap;
     padding: 2vw;
     font-size: 2vh;
-    border-color: black;
-}
-
-.scroll-child li *{
-    padding-bottom: 1vh;
-    border-bottom-style: solid;
-    border-bottom-width: 0.3vh;
-    width:max-content;
-    border-color: rgb(94, 44, 144);
-    animation:header 5s linear;
-}
-
-
-@keyframes header{
-    0%{
-      margin: 100px;
-    }
-    20%{
-      margin: 80px;
-    }
-    40%{
-      margin: 60px;
-    }
-    60%{
-      margin: 40px;
-    }
   }
+}
+
+.scroll-view * {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 2vw;
+  font-size: 2vh;
+  border-color: black;
+}
+
+.scroll-child li * {
+  padding-bottom: 1vh;
+  border-bottom-style: solid;
+  border-bottom-width: 0.3vh;
+  width: max-content;
+  border-color: rgb(94, 44, 144);
+  animation: header 5s linear;
+}
+
+@keyframes header {
+  0% {
+    margin: 100px;
+  }
+  20% {
+    margin: 80px;
+  }
+  40% {
+    margin: 60px;
+  }
+  60% {
+    margin: 40px;
+  }
+}
+
+.hobbies {
+  font-size: 1rem !important;
+}
+
+.hobbies-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center !important;
+  justify-content: center !important;
+  width: 60vw !important;
+  background-color: red;
+}
+
+.txt {
+  font-size: 1rem !important;
+}

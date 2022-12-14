@@ -97,7 +97,7 @@ const Contact = () => {
               <center>
                 <button className="btn-submit" onClick={(e)=>{setMsg(true)}}>Submit</button>
               </center>
-              <h3 className="status"><font color="green"/>{msg == false ? <></> : <>Your message is submitted</>}<font/></h3>
+              <submission className="status">{msg == false ? <></> : <>Your message is submitted</>}</submission>
             </form>
           </div>
         </div>

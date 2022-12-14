@@ -16,7 +16,7 @@
   color: rgb(11, 41, 6);
   background-color: rgb(205, 185, 240);
   box-shadow: 0px 5px 20px rgb(200, 190, 232);
-  animation:skills 15s linear;
+  animation:skills 10s linear;
 }
 
 .project-home-container {

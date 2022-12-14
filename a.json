@@ -1,0 +1,6 @@
+"homepage": "http://asifrahaman13.github.io/asifrahamanportfolio",
+
+
+
+"predeploy": "npm run build",
+"deploy": "gh-pages -d build",

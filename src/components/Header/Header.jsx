@@ -28,8 +28,15 @@ const Header = () => {
       <aboutme>
         <center>
           <h2 className="skill" id="about">
-            <a href="#nav">MY HOBBIES...</a>
+            <a href="#nav">MY HOBBIES</a>
           </h2>
+          <br />
+          <br />
+          <center>
+
+            <h3 className="txt">
+              I am a coding geek and a keen learner. I love exploring about new technologies. Apart from that I also spend my time in reading books every day.Ocassionally I listen to sunday suspense....
+            </h3></center>
         </center>
         <div className="images">
           <div className="imageclass">
