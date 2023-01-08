@@ -35,7 +35,6 @@ const Contact = () => {
 
   return (
     <>
-      {msg == false ? <>fdf</> : <>dhfgfg</>}
 
       <center>
         <contact className="contact-header" id="contact-me">
@@ -62,7 +61,7 @@ const Contact = () => {
               <input
                 type="text"
                 className="form-input"
-                placeholder="Enter your profession e.g Student"
+                placeholder="Enter your e-mail address"
                 name="email"
                 value={credential.email}
                 onChange={onChange}
@@ -73,7 +72,7 @@ const Contact = () => {
               <input
                 type="text"
                 className="form-input"
-                placeholder="Enter your age e.g age"
+                placeholder="Enter your profession e.g student"
               />
               <label htmlFor="" className="contact-label">
                 Enter your age
@@ -81,7 +80,7 @@ const Contact = () => {
               <input
                 type="text"
                 className="form-input"
-                placeholder="Enter your profession e.g Student"
+                placeholder="Enter your age"
               />
               <label htmlFor="" className="contact-label">
                 Enter your concern
@@ -95,9 +94,18 @@ const Contact = () => {
                 placeholder="Enter your concern e.g Hello can you please.... "
               ></textarea>
               <center>
-                <button className="btn-submit" onClick={(e)=>{setMsg(true)}}>Submit</button>
+                <button
+                  className="btn-submit"
+                  onClick={(e) => {
+                    setMsg(true);
+                  }}
+                >
+                  Submit
+                </button>
               </center>
-              <submission className="status">{msg == false ? <></> : <>Your message is submitted</>}</submission>
+              <submission className="status">
+                {msg == false ? <></> : <>Your message is submitted</>}
+              </submission>
             </form>
           </div>
         </div>

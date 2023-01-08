@@ -18,7 +18,6 @@ const Credits = () => {
   const provider = new ethers.providers.JsonRpcProvider(
     `https://goerli.infura.io/v3/5f1919e74ef0420ca8348dfab3af6bdc`
   );
-  // 0x8B7D297a15844415AC7F51fe90C659006F18de2b
   const contractAddress = "0x8B7D297a15844415AC7F51fe90C659006F18de2b";
   const ABI = data;
   const contract = new ethers.Contract(contractAddress, ABI, provider);
